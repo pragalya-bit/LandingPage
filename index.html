@@ -502,6 +502,16 @@
             .career-image-wrapper { width: 100%; height: 300px; order: -1; /* Put image on top on mobile */ }
             .benefits-grid { grid-template-columns: 1fr; } 
         }
+        .single-line-heading {
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .single-line-heading {
+        white-space: normal; /* allow wrapping on mobile */
+        text-align: center;
+    }
+}
 
         /* --- FAQ SECTION STYLES --- */
         .faq-section {
